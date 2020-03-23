@@ -38,9 +38,9 @@
                                                            defaultValue: 1) }
   /// A layout animator object, defaults to `DefaultLayoutAnimator`.
   var animator: BlueprintLayoutAnimator
-  var supplementaryWidth: CGFloat = 0
-  var collectionViewWidth: CGFloat = 0
-  var calculatedItemWidth: CGFloat = 0
+  public var supplementaryWidth: CGFloat = 0
+  public var collectionViewWidth: CGFloat = 0
+  public var calculatedItemWidth: CGFloat = 0
 
   /// An initialized collection view layout object.
   ///
